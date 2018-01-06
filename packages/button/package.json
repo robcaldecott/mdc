@@ -1,0 +1,13 @@
+{
+  "name": "@mdc/button",
+  "version": "0.27.0",
+  "description": "React MDC Button",
+  "main": "index.js",
+  "author": "Rob Caldecott <robert.caldecott@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material/button": "^0.27.0",
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0"
+  }
+}
