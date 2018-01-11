@@ -1,7 +1,7 @@
 {
-  "name": "@mdc/button",
+  "name": "@mdc/dialog",
   "version": "0.28.0",
-  "description": "React MDC Button",
+  "description": "React MDC Dialog",
   "main": "index.js",
   "author": "Rob Caldecott <robert.caldecott@gmail.com>",
   "license": "MIT",

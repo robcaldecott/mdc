@@ -1,7 +1,7 @@
 {
-  "name": "@mdc/button",
+  "name": "@mdc/form-field",
   "version": "0.28.0",
-  "description": "React MDC Button",
+  "description": "React MDC Form Field",
   "main": "index.js",
   "author": "Rob Caldecott <robert.caldecott@gmail.com>",
   "license": "MIT",

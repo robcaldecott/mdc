@@ -1,12 +1,15 @@
 {
-  "name": "@mdc/button",
+  "name": "@mdc/card",
   "version": "0.28.0",
-  "description": "React MDC Button",
+  "description": "React MDC Card",
   "main": "index.js",
   "author": "Rob Caldecott <robert.caldecott@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "@mdc/button": "^0.28.0"
   }
 }

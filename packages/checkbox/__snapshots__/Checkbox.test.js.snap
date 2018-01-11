@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="mdc-checkbox"
+>
+  <input
+    className="mdc-checkbox__native-control"
+    disabled={undefined}
+    id={undefined}
+    type="checkbox"
+  />
+  <div
+    className="mdc-checkbox__background"
+  >
+    <svg
+      className="mdc-checkbox__checkmark"
+      viewBox="0 0 24 24"
+    >
+      <path
+        className="mdc-checkbox__checkmark__path"
+        d="M1.73,12.91 8.1,19.28 22.79,4.59"
+        fill="none"
+        stroke="white"
+      />
+    </svg>
+    <div
+      className="mdc-checkbox__mixedmark"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders with a label 1`] = `
+<div
+  className="mdc-form-field"
+>
+  <div
+    className="mdc-checkbox"
+  >
+    <input
+      className="mdc-checkbox__native-control"
+      defaultChecked={true}
+      disabled={undefined}
+      id="checkbox"
+      type="checkbox"
+    />
+    <div
+      className="mdc-checkbox__background"
+    >
+      <svg
+        className="mdc-checkbox__checkmark"
+        viewBox="0 0 24 24"
+      >
+        <path
+          className="mdc-checkbox__checkmark__path"
+          d="M1.73,12.91 8.1,19.28 22.79,4.59"
+          fill="none"
+          stroke="white"
+        />
+      </svg>
+      <div
+        className="mdc-checkbox__mixedmark"
+      />
+    </div>
+  </div>
+  <label
+    htmlFor="checkbox"
+  >
+    Label
+  </label>
+</div>
+`;

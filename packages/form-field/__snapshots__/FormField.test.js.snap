@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="mdc-form-field"
+>
+  <input
+    id="checkbox"
+    type="checkbox"
+  />
+  <label
+    htmlFor="checkbox"
+  >
+    Label
+  </label>
+</div>
+`;
+
+exports[`renders alignEnd 1`] = `
+<div
+  className="mdc-form-field mdc-form-field--align-end"
+>
+  <input
+    id="checkbox"
+    type="checkbox"
+  />
+  <label
+    htmlFor="checkbox"
+  >
+    Label
+  </label>
+</div>
+`;
