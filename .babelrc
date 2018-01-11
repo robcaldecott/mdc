@@ -1,7 +1,19 @@
 {
-  "presets": ["env", "react"],
-  "plugins": [
-    ["transform-object-rest-spread", { "useBuiltIns": true }],
-    "babel-plugin-transform-class-properties"
-  ]
+  "env": {
+    "development": {
+      "presets": [["env", { "modules": false }], "react"],
+      "plugins": [
+        
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
+        "babel-plugin-transform-class-properties"
+      ]
+    },
+    "test": {
+      "presets": ["env", "react"],
+      "plugins": [
+        ["transform-object-rest-spread", { "useBuiltIns": true }],
+        "babel-plugin-transform-class-properties"
+      ]
+    }
+  }
 }
