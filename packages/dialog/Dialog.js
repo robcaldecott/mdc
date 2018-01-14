@@ -41,15 +41,12 @@ class Dialog extends React.Component {
   handleTransitionEnd = e => {
     if (e.target === this.surface) {
       this.setState({ animating: false });
-      const accept = this.dialog.getElementsByClassName(
-        "mdc-dialog__footer__button--accept"
-      );
-      if (accept.length === 1) accept[0].focus();
+      this.props.onReady && this.props.onReady();
     }
   };
 
   render() {
-    const { open, className, children, ...other } = this.props;
+    const { open, className, onReady, children, ...other } = this.props;
 
     return (
       <aside
@@ -63,9 +60,6 @@ class Dialog extends React.Component {
         )}
         role="alertdialog"
         onClick={this.handleClose}
-        ref={dialog => {
-          this.dialog = dialog;
-        }}
         onTransitionEnd={this.handleTransitionEnd}
         {...other}
       >

@@ -11,13 +11,19 @@ import { storiesOf } from "@storybook/react";
 
 storiesOf("Dialog", module).add("dialog", () => {
   class ControlledDialog extends React.Component {
-    state = { open: false, focus: false };
+    state = { open: false };
+
+    handleClose = () => {
+      this.setState({ open: false }, () => this.button.focus());
+    };
+
     render() {
       return (
         <div style={{ minHeight: "1000px" }}>
           <Dialog
             open={this.state.open}
-            onClose={() => this.setState({ open: false })}
+            onClose={this.handleClose}
+            onReady={() => this.accept.focus()}
           >
             <DialogHeader>
               <DialogHeaderTitle>Dialog title</DialogHeaderTitle>
@@ -29,16 +35,15 @@ storiesOf("Dialog", module).add("dialog", () => {
             </DialogBody>
 
             <DialogFooter>
-              <DialogFooterButton
-                onClick={() => this.setState({ open: false })}
-                type="cancel"
-              >
+              <DialogFooterButton onClick={this.handleClose}>
                 Decline
               </DialogFooterButton>
               <DialogFooterButton
-                type="accept"
                 action
-                onClick={() => this.setState({ open: false })}
+                onClick={this.handleClose}
+                buttonRef={button => {
+                  this.accept = button;
+                }}
               >
                 Accept
               </DialogFooterButton>
@@ -47,7 +52,10 @@ storiesOf("Dialog", module).add("dialog", () => {
 
           <button
             className="mdc-button"
-            onClick={() => this.setState(state => ({ open: !state.open }))}
+            onClick={() => this.setState({ open: true })}
+            ref={button => {
+              this.button = button;
+            }}
           >
             Toggle
           </button>

@@ -4,8 +4,8 @@ import classnames from "classnames";
 
 const DialogFooterButton = ({
   className,
-  type,
   action,
+  buttonRef,
   children,
   ...other
 }) => (
@@ -14,10 +14,10 @@ const DialogFooterButton = ({
     className={classnames(
       "mdc-button",
       "mdc-dialog__footer__button",
-      { [`mdc-dialog__footer__button--${type}`]: type },
       { "mdc-dialog__action": action },
       className
     )}
+    ref={button => buttonRef(button)}
     {...other}
   >
     {children}
@@ -25,8 +25,12 @@ const DialogFooterButton = ({
 );
 
 DialogFooterButton.propTypes = {
-  type: PropTypes.oneOf(["accept", "cancel"]).isRequired,
-  action: PropTypes.bool
+  action: PropTypes.bool,
+  buttonRef: PropTypes.func
+};
+
+DialogFooterButton.defaultProps = {
+  buttonRef: () => {}
 };
 
 export default DialogFooterButton;
