@@ -25,10 +25,8 @@ class TestDialog extends React.Component {
         </DialogBody>
 
         <DialogFooter>
-          <DialogFooterButton type="cancel">Decline</DialogFooterButton>
-          <DialogFooterButton type="accept" action>
-            Accept
-          </DialogFooterButton>
+          <DialogFooterButton>Decline</DialogFooterButton>
+          <DialogFooterButton action>Accept</DialogFooterButton>
         </DialogFooter>
       </Dialog>
     );
@@ -87,17 +85,16 @@ it("does not close when clicking on the dialog", () => {
   expect(onClose).not.toHaveBeenCalled();
 });
 
-it("handles transition end", () => {
-  const dom = TestUtils.renderIntoDocument(<TestDialog open />);
+it("fires onReady", () => {
+  const onReady = jest.fn();
+  const dom = TestUtils.renderIntoDocument(
+    <TestDialog open onReady={onReady} />
+  );
   const dialog = TestUtils.findRenderedDOMComponentWithClass(dom, "mdc-dialog");
   const surface = TestUtils.findRenderedDOMComponentWithClass(
     dom,
     "mdc-dialog__surface"
   );
   TestUtils.Simulate.transitionEnd(dialog, { target: surface });
-  const accept = TestUtils.findRenderedDOMComponentWithClass(
-    dom,
-    "mdc-dialog__footer__button--accept"
-  );
-  expect(document.activeElement).toEqual(accept);
+  expect(onReady).toHaveBeenCalled();
 });

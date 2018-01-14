@@ -29,13 +29,13 @@ exports[`renders 1`] = `
       className="mdc-dialog__footer"
     >
       <button
-        className="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--cancel"
+        className="mdc-button mdc-dialog__footer__button"
         type="button"
       >
         Decline
       </button>
       <button
-        className="mdc-button mdc-dialog__footer__button mdc-dialog__footer__button--accept mdc-dialog__action"
+        className="mdc-button mdc-dialog__footer__button mdc-dialog__action"
         type="button"
       >
         Accept
