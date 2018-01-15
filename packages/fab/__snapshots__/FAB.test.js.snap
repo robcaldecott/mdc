@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<button
+  aria-label="favorite"
+  className="mdc-fab material-icons"
+>
+  <span
+    className="mdc-fab__icon"
+  >
+    favorite
+  </span>
+</button>
+`;
+
+exports[`renders exited 1`] = `
+<button
+  aria-label="favorite"
+  className="mdc-fab material-icons mdc-fab--exited"
+>
+  <span
+    className="mdc-fab__icon"
+  >
+    favorite
+  </span>
+</button>
+`;
+
+exports[`renders mini 1`] = `
+<button
+  aria-label="favorite"
+  className="mdc-fab material-icons mdc-fab--mini"
+>
+  <span
+    className="mdc-fab__icon"
+  >
+    favorite
+  </span>
+</button>
+`;
