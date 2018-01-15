@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<i
+  className="mdc-icon-toggle material-icons"
+>
+  favorite
+</i>
+`;
+
+exports[`renders disabled 1`] = `
+<i
+  className="mdc-icon-toggle material-icons mdc-icon-toggle--disabled"
+>
+  favorite
+</i>
+`;
