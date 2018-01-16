@@ -1,5 +1,5 @@
 import React from "react";
-import { TextField, TextFieldHelperText } from ".";
+import { TextField, TextFieldHelperText, TextFieldIcon } from ".";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean, text } from "@storybook/addon-knobs";
 
@@ -32,6 +32,21 @@ storiesOf("TextField", module)
                   {text("helperText", "")}
                 </TextFieldHelperText>
               }
+              {...(boolean("leadingIcon", false)
+                ? { leadingIcon: <TextFieldIcon>event</TextFieldIcon> }
+                : {})}
+              {...(boolean("trailingIcon", false)
+                ? {
+                    trailingIcon: (
+                      <TextFieldIcon
+                        tabIndex="0"
+                        onClick={() => this.setState({ value: "" })}
+                      >
+                        delete
+                      </TextFieldIcon>
+                    )
+                  }
+                : {})}
             />
           </div>
         );

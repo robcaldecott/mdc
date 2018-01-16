@@ -24,6 +24,8 @@ class TextField extends React.Component {
       value,
       label,
       helperText,
+      leadingIcon,
+      trailingIcon,
       ...other
     } = this.props;
 
@@ -41,11 +43,15 @@ class TextField extends React.Component {
               "mdc-text-field--fullwidth": fullWidth,
               "mdc-text-field--disabled": disabled,
               "mdc-text-field--dense": dense,
-              "mdc-text-field--box": box
+              "mdc-text-field--box": box,
+              "mdc-text-field--with-leading-icon": leadingIcon,
+              "mdc-text-field--with-trailing-icon": trailingIcon
             },
             className
           )}
         >
+          {leadingIcon}
+
           <input
             className="mdc-text-field__input"
             onFocus={this.handleFocus}
@@ -61,6 +67,8 @@ class TextField extends React.Component {
           >
             {label}
           </TextFieldLabel>
+
+          {trailingIcon}
 
           <TextFieldBottomLine active={hasFocus} />
         </label>

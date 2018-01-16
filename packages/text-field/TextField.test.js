@@ -1,5 +1,5 @@
 import React from "react";
-import { TextField, TextFieldHelperText } from ".";
+import { TextField, TextFieldHelperText, TextFieldIcon } from ".";
 import renderer from "react-test-renderer";
 
 it("renders", () => {
@@ -55,6 +55,30 @@ it("renders with validation helper text", () => {
       <TextField
         label="Label"
         helperText={<TextFieldHelperText validation />}
+      />
+    )
+  ).toMatchSnapshot();
+});
+
+it("renders with a leading icon", () => {
+  expect(
+    renderer.create(
+      <TextField
+        label="Label"
+        box
+        leadingIcon={<TextFieldIcon>event</TextFieldIcon>}
+      />
+    )
+  ).toMatchSnapshot();
+});
+
+it("renders with a trailing icon", () => {
+  expect(
+    renderer.create(
+      <TextField
+        label="Label"
+        box
+        trailingIcon={<TextFieldIcon>delete</TextFieldIcon>}
       />
     )
   ).toMatchSnapshot();
