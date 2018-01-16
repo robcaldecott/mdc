@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<label
+  className="mdc-text-field mdc-text-field--upgraded"
+>
+  <input
+    className="mdc-text-field__input"
+    disabled={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    value={undefined}
+  />
+  <span
+    className="mdc-text-field__label"
+  />
+  <div
+    className="mdc-text-field__bottom-line"
+  />
+</label>
+`;
+
+exports[`renders dense 1`] = `
+<label
+  className="mdc-text-field mdc-text-field--upgraded mdc-text-field--dense"
+>
+  <input
+    className="mdc-text-field__input"
+    disabled={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    value={undefined}
+  />
+  <span
+    className="mdc-text-field__label"
+  >
+    Label
+  </span>
+  <div
+    className="mdc-text-field__bottom-line"
+  />
+</label>
+`;
+
+exports[`renders disabled 1`] = `
+<label
+  className="mdc-text-field mdc-text-field--upgraded mdc-text-field--disabled"
+>
+  <input
+    className="mdc-text-field__input"
+    disabled={true}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    value={undefined}
+  />
+  <span
+    className="mdc-text-field__label"
+  >
+    Label
+  </span>
+  <div
+    className="mdc-text-field__bottom-line"
+  />
+</label>
+`;
+
+exports[`renders full width 1`] = `
+<label
+  className="mdc-text-field mdc-text-field--upgraded mdc-text-field--fullwidth"
+>
+  <input
+    className="mdc-text-field__input"
+    disabled={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    value={undefined}
+  />
+  <span
+    className="mdc-text-field__label"
+  >
+    Label
+  </span>
+  <div
+    className="mdc-text-field__bottom-line"
+  />
+</label>
+`;
+
+exports[`renders with a box 1`] = `
+<label
+  className="mdc-text-field mdc-text-field--upgraded mdc-text-field--box"
+>
+  <input
+    className="mdc-text-field__input"
+    disabled={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    value={undefined}
+  />
+  <span
+    className="mdc-text-field__label"
+  >
+    Label
+  </span>
+  <div
+    className="mdc-text-field__bottom-line"
+  />
+</label>
+`;
+
+exports[`renders with a label 1`] = `
+<label
+  className="mdc-text-field mdc-text-field--upgraded"
+>
+  <input
+    className="mdc-text-field__input"
+    disabled={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    value={undefined}
+  />
+  <span
+    className="mdc-text-field__label"
+  >
+    Label
+  </span>
+  <div
+    className="mdc-text-field__bottom-line"
+  />
+</label>
+`;
+
+exports[`renders with helper text 1`] = `
+Array [
+  <label
+    className="mdc-text-field mdc-text-field--upgraded"
+  >
+    <input
+      className="mdc-text-field__input"
+      disabled={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      value={undefined}
+    />
+    <span
+      className="mdc-text-field__label"
+    >
+      Label
+    </span>
+    <div
+      className="mdc-text-field__bottom-line"
+    />
+  </label>,
+  <p
+    className="mdc-text-field-helper-text"
+  />,
+]
+`;
+
+exports[`renders with persistent helper text 1`] = `
+Array [
+  <label
+    className="mdc-text-field mdc-text-field--upgraded"
+  >
+    <input
+      className="mdc-text-field__input"
+      disabled={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      value={undefined}
+    />
+    <span
+      className="mdc-text-field__label"
+    >
+      Label
+    </span>
+    <div
+      className="mdc-text-field__bottom-line"
+    />
+  </label>,
+  <p
+    className="mdc-text-field-helper-text mdc-text-field-helper-text--persistent"
+  />,
+]
+`;
+
+exports[`renders with validation helper text 1`] = `
+Array [
+  <label
+    className="mdc-text-field mdc-text-field--upgraded"
+  >
+    <input
+      className="mdc-text-field__input"
+      disabled={undefined}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      value={undefined}
+    />
+    <span
+      className="mdc-text-field__label"
+    >
+      Label
+    </span>
+    <div
+      className="mdc-text-field__bottom-line"
+    />
+  </label>,
+  <p
+    className="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg"
+  />,
+]
+`;
