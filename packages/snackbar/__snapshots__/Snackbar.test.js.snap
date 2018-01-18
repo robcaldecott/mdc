@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  aria-atomic="true"
+  aria-hidden="true"
+  aria-live="assertive"
+  className="mdc-snackbar mdc-snackbar--active mdc-snackbar--multiline mdc-snackbar--action-on-bottom mdc-snackbar--align-start"
+>
+  <div
+    className="mdc-snackbar__text"
+  >
+    Message
+  </div>
+  <div
+    className="mdc-snackbar__action-wrapper"
+  >
+    <button
+      className="mdc-snackbar__action-button"
+      type="button"
+    >
+      Action
+    </button>
+  </div>
+</div>
+`;
