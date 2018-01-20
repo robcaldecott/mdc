@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders icon and text tabs 1`] = `
+<nav
+  className="mdc-tab-bar mdc-tab-bar--icons-with-text mdc-tab-bar--indicator-accent"
+>
+  <a
+    className="mdc-tab mdc-tab--active mdc-tab--with-icon-and-text"
+  >
+    <i
+      className="material-icons mdc-tab__icon"
+    >
+      star
+    </i>
+    <span
+      className="mdc-tab__icon-text"
+    >
+      Tab 1
+    </span>
+  </a>
+  <a
+    className="mdc-tab mdc-tab--with-icon-and-text"
+  >
+    <i
+      className="material-icons mdc-tab__icon"
+    >
+      favorite
+    </i>
+    <span
+      className="mdc-tab__icon-text"
+    >
+      Tab 2
+    </span>
+  </a>
+  <a
+    className="mdc-tab mdc-tab--with-icon-and-text"
+  >
+    <i
+      className="material-icons mdc-tab__icon"
+    >
+      bookmark
+    </i>
+    <span
+      className="mdc-tab__icon-text"
+    >
+      Tab 3
+    </span>
+  </a>
+  <span
+    className="mdc-tab-bar__indicator"
+  />
+</nav>
+`;
+
+exports[`renders icon tabs 1`] = `
+<nav
+  className="mdc-tab-bar mdc-tab-bar--icon-tab-bar mdc-tab-bar--indicator-primary"
+>
+  <a
+    className="mdc-tab mdc-tab--active"
+  >
+    <i
+      className="material-icons mdc-tab__icon"
+    >
+      star
+    </i>
+  </a>
+  <a
+    className="mdc-tab"
+  >
+    <i
+      className="material-icons mdc-tab__icon"
+    >
+      favorite
+    </i>
+  </a>
+  <a
+    className="mdc-tab"
+  >
+    <i
+      className="material-icons mdc-tab__icon"
+    >
+      bookmark
+    </i>
+  </a>
+  <span
+    className="mdc-tab-bar__indicator"
+  />
+</nav>
+`;
+
+exports[`renders text tabs 1`] = `
+<nav
+  className="mdc-tab-bar custom"
+>
+  <a
+    className="mdc-tab mdc-tab--active"
+  >
+    Tab 1
+  </a>
+  <a
+    className="mdc-tab"
+  >
+    Tab 2
+  </a>
+  <a
+    className="mdc-tab"
+  >
+    Tab 3
+  </a>
+  <span
+    className="mdc-tab-bar__indicator"
+  />
+</nav>
+`;
