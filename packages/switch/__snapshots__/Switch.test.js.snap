@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="mdc-switch"
+>
+  <input
+    className="mdc-switch__native-control"
+    defaultChecked={true}
+    type="checkbox"
+  />
+  <div
+    className="mdc-switch__background"
+  >
+    <div
+      className="mdc-switch__knob"
+    />
+  </div>
+</div>
+`;
