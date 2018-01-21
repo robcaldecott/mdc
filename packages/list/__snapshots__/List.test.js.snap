@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<ul
+  className="mdc-list mdc-list--dense mdc-list--two-line custom-list"
+>
+  <li
+    className="mdc-list-item mdc-list-item--activated"
+  >
+    <i
+      className="mdc-list-item__graphic material-icons"
+    >
+      inbox
+    </i>
+    <span
+      className="mdc-list-item__text"
+    >
+      Text
+      <span
+        className="mdc-list-item__secondary-text"
+      >
+        Line 2
+      </span>
+    </span>
+  </li>
+  <li
+    className="mdc-list-divider mdc-list-divider--inset"
+    role="separator"
+  />
+  <li
+    className="mdc-list-item mdc-list-item--selected"
+  >
+    Text
+  </li>
+  <li
+    className="mdc-list-divider"
+    role="separator"
+  />
+  <li
+    className="mdc-list-item custom-list-item"
+  >
+    Text
+    <i
+      className="mdc-list-item__meta material-icons"
+    >
+      delete
+    </i>
+  </li>
+</ul>
+`;

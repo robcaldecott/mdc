@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`remders 1`] = `
+<nav
+  className="mdc-list custom"
+>
+  <a
+    className="mdc-list-item"
+  >
+    Item 1
+  </a>
+  <a
+    className="mdc-list-item"
+  >
+    Item 2
+  </a>
+  <hr
+    className="mdc-list-divider"
+    role="separator"
+  />
+  <a
+    className="mdc-list-item"
+  >
+    Item 3
+  </a>
+</nav>
+`;

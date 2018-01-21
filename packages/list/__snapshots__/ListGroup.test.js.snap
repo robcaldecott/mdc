@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="mdc-list-group custom"
+>
+  <h3
+    className="mdc-list-group__subheader"
+  >
+    List 1
+  </h3>
+  <ul
+    className="mdc-list"
+  >
+    <li
+      className="mdc-list-item"
+    >
+      Item 1
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      Item 2
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      Item 3
+    </li>
+  </ul>
+  <hr
+    className="mdc-list-divider"
+    role="separator"
+  />
+  <h3
+    className="mdc-list-group__subheader"
+  >
+    List 2
+  </h3>
+  <ul
+    className="mdc-list"
+  >
+    <li
+      className="mdc-list-item"
+    >
+      Item 1
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      Item 2
+    </li>
+    <li
+      className="mdc-list-item"
+    >
+      Item 3
+    </li>
+  </ul>
+</div>
+`;
