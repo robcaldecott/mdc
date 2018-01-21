@@ -32,9 +32,7 @@ storiesOf("Radio", module)
                 {label}
               </Radio>
             ))}
-            <p className="mdc-typography">
-              Selected option: {this.state.value}
-            </p>
+            <p>Selected option: {this.state.value}</p>
           </Fragment>
         );
       }

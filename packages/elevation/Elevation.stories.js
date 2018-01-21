@@ -9,7 +9,6 @@ storiesOf("Elevation", module)
     <Elevation
       z={number("z", 2, { range: true, min: 0, max: 24, step: 1 })}
       style={{ margin: 24 }}
-      className="mdc-typography"
     >
       <p style={{ padding: 24 }}>Elevation</p>
     </Elevation>
@@ -24,7 +23,6 @@ storiesOf("Elevation", module)
             z={this.state.z}
             transition
             style={{ margin: 24 }}
-            className="mdc-typography"
             onMouseEnter={() => this.setState({ z: 24 })}
             onMouseLeave={() => this.setState({ z: 2 })}
           >

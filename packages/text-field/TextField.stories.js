@@ -11,7 +11,7 @@ storiesOf("TextField", module)
 
       render() {
         return (
-          <div className="mdc-typography">
+          <div>
             <TextField
               id="textfield"
               label={!this.props.fullWidth && "Label"}

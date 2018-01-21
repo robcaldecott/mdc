@@ -36,7 +36,7 @@ storiesOf("Toolbar", module)
           </ToolbarRow>
         </Toolbar>
         <ToolbarAdjust fixed={fixed}>
-          <div className="mdc-typography">Content</div>
+          <div>Content</div>
         </ToolbarAdjust>
       </div>
     );

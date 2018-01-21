@@ -2,8 +2,10 @@
   "private": true,
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.3",
+    "@storybook/addon-info": "^3.3.10",
     "@storybook/addon-knobs": "^3.3.3",
     "@storybook/addon-links": "^3.3.3",
+    "@storybook/addon-viewport": "^3.3.10",
     "@storybook/react": "^3.3.3",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^7.2.3",
