@@ -1,6 +1,6 @@
 {
   "private": true,
-  "devDependencies": {
+  "dependencies": {
     "@storybook/addon-actions": "^3.3.3",
     "@storybook/addon-info": "^3.3.10",
     "@storybook/addon-knobs": "^3.3.3",
