@@ -4,9 +4,9 @@ import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 import { action } from "@storybook/addon-actions";
 
-storiesOf("FAB", module)
+storiesOf("fab", module)
   .addDecorator(withKnobs)
-  .add("knobs", () => (
+  .add("props", () => (
     <FAB
       mini={boolean("mini", false)}
       exited={boolean("exited", false)}

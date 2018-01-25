@@ -9,7 +9,7 @@ import {
 } from ".";
 import { storiesOf } from "@storybook/react";
 
-storiesOf("Dialog", module).add("dialog", () => {
+storiesOf("dialog", module).add("controlled", () => {
   class ControlledDialog extends React.Component {
     state = { open: false };
 

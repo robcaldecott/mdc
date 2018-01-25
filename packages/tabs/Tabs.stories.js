@@ -3,9 +3,9 @@ import { TabBar, Tab, TabIcon, TabIconText } from ".";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, select } from "@storybook/addon-knobs";
 
-storiesOf("Tabs", module)
+storiesOf("tabs", module)
   .addDecorator(withKnobs)
-  .add("@mdc/tabs", () => {
+  .add("props", () => {
     class ControlledTabs extends React.Component {
       state = {
         tabs: [

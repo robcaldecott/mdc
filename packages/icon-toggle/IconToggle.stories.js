@@ -3,7 +3,7 @@ import { IconToggle } from ".";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 
-storiesOf("IconToggle", module)
+storiesOf("icon-toggle", module)
   .addDecorator(withKnobs)
   .add("controlled", () => {
     class ControlledIconToggle extends React.Component {

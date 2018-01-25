@@ -3,9 +3,9 @@ import { TextField, TextFieldHelperText, TextFieldIcon } from ".";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean, text } from "@storybook/addon-knobs";
 
-storiesOf("TextField", module)
+storiesOf("text-field", module)
   .addDecorator(withKnobs)
-  .add("@mdc/text-field", () => {
+  .add("props", () => {
     class ControlledTextField extends React.Component {
       state = { value: this.props.initialValue };
 

@@ -1,0 +1,12 @@
+{
+  "name": "@mdc/layout-grid",
+  "version": "0.28.0",
+  "description": "React MDC Layout Grid",
+  "main": "index.js",
+  "author": "Rob Caldecott <robert.caldecott@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0"
+  }
+}

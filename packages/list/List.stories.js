@@ -17,9 +17,9 @@ import {
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 
-storiesOf("List", module)
+storiesOf("list", module)
   .addDecorator(withKnobs)
-  .add("@mdc/list", () => {
+  .add("props", () => {
     const twoLine = boolean("twoLine", false);
     const graphics = boolean("graphics", false);
     const meta = boolean("meta", false);

@@ -3,9 +3,9 @@ import { Radio } from ".";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 
-storiesOf("Radio", module)
+storiesOf("radio", module)
   .addDecorator(withKnobs)
-  .add("knobs", () => {
+  .add("controlled", () => {
     class ControlledRadioGroup extends React.Component {
       state = {
         value: "1997",

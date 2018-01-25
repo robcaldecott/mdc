@@ -3,9 +3,9 @@ import { FormField } from ".";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 
-storiesOf("FormField", module)
+storiesOf("form-field", module)
   .addDecorator(withKnobs)
-  .add("knobs", () => (
+  .add("props", () => (
     <FormField alignEnd={boolean("alignEnd", false)}>
       <input type="checkbox" id="checkbox" />
       <label htmlFor="checkbox">Label</label>

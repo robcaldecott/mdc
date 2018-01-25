@@ -3,9 +3,9 @@ import { Elevation } from ".";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, number, boolean } from "@storybook/addon-knobs";
 
-storiesOf("Elevation", module)
+storiesOf("elevation", module)
   .addDecorator(withKnobs)
-  .add("@mdc/elevation", () => (
+  .add("props", () => (
     <Elevation
       z={number("z", 2, { range: true, min: 0, max: 24, step: 1 })}
       style={{ margin: 24 }}

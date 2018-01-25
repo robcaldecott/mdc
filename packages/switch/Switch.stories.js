@@ -4,9 +4,9 @@ import { FormField } from "@mdc/form-field";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean, text } from "@storybook/addon-knobs";
 
-storiesOf("Switch", module)
+storiesOf("switch", module)
   .addDecorator(withKnobs)
-  .add("@mdc/switch", () => {
+  .add("props", () => {
     class ControlledSwitch extends React.Component {
       state = { checked: false };
 

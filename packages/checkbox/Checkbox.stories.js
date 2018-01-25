@@ -4,9 +4,9 @@ import { storiesOf } from "@storybook/react";
 import { withKnobs, text, boolean } from "@storybook/addon-knobs";
 import { action } from "@storybook/addon-actions";
 
-storiesOf("Checkbox", module)
+storiesOf("checkbox", module)
   .addDecorator(withKnobs)
-  .add("knobs", () => {
+  .add("props", () => {
     class ControlledCheckbox extends React.Component {
       state = { checked: this.props.initialState };
 

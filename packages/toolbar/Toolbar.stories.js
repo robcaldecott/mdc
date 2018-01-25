@@ -10,9 +10,9 @@ import {
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 
-storiesOf("Toolbar", module)
+storiesOf("toolbar", module)
   .addDecorator(withKnobs)
-  .add("@mdc/toolbar", () => {
+  .add("props", () => {
     const fixed = boolean("fixed", false);
     return (
       <div style={{ height: 1000 }}>

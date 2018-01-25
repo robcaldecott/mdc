@@ -4,9 +4,9 @@ import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean, text } from "@storybook/addon-knobs";
 import { action } from "@storybook/addon-actions";
 
-storiesOf("Snackbar", module)
+storiesOf("snackbar", module)
   .addDecorator(withKnobs)
-  .add("@mdc/snackbar", () => (
+  .add("props", () => (
     <Snackbar
       active={boolean("active", true)}
       multiline={boolean("multiline", false)}

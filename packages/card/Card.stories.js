@@ -12,9 +12,9 @@ import { Button } from "@mdc/button";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 
-storiesOf("Card", module)
+storiesOf("card", module)
   .addDecorator(withKnobs)
-  .add("knobs", () => (
+  .add("props", () => (
     <Card>
       <CardPrimary>
         <CardTitle large={boolean("large title", true)}>Title</CardTitle>
