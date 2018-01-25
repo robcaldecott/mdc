@@ -2,10 +2,11 @@
 
 exports[`renders 1`] = `
 <div
-  className="mdc-select"
+  className="mdc-select mdc-select--disabled"
 >
   <select
     className="mdc-select__surface"
+    disabled={true}
     value=""
   >
     <option

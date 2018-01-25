@@ -5,7 +5,7 @@ import renderer from "react-test-renderer";
 it("renders", () => {
   expect(
     renderer.create(
-      <Select value="" label="Pick a food group">
+      <Select value="" label="Pick a food group" disabled>
         <option value="grains">Bread, Cereal, Rice, and Pasta</option>
         <option value="vegetables" disabled>
           Vegetables
