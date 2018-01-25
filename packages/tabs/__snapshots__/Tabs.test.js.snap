@@ -2,7 +2,8 @@
 
 exports[`renders icon and text tabs 1`] = `
 <nav
-  className="mdc-tab-bar mdc-tab-bar--icons-with-text mdc-tab-bar--indicator-accent"
+  className="mdc-tab-bar mdc-tab-bar--icons-with-text"
+  indicator="accent"
 >
   <a
     className="mdc-tab mdc-tab--active mdc-tab--with-icon-and-text"
@@ -17,6 +18,9 @@ exports[`renders icon and text tabs 1`] = `
     >
       Tab 1
     </span>
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
   <a
     className="mdc-tab mdc-tab--with-icon-and-text"
@@ -31,6 +35,9 @@ exports[`renders icon and text tabs 1`] = `
     >
       Tab 2
     </span>
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
   <a
     className="mdc-tab mdc-tab--with-icon-and-text"
@@ -45,16 +52,17 @@ exports[`renders icon and text tabs 1`] = `
     >
       Tab 3
     </span>
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
-  <span
-    className="mdc-tab-bar__indicator"
-  />
 </nav>
 `;
 
 exports[`renders icon tabs 1`] = `
 <nav
-  className="mdc-tab-bar mdc-tab-bar--icon-tab-bar mdc-tab-bar--indicator-primary"
+  className="mdc-tab-bar mdc-tab-bar--icon-tab-bar"
+  indicator="primary"
 >
   <a
     className="mdc-tab mdc-tab--active"
@@ -64,6 +72,9 @@ exports[`renders icon tabs 1`] = `
     >
       star
     </i>
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
   <a
     className="mdc-tab"
@@ -73,6 +84,9 @@ exports[`renders icon tabs 1`] = `
     >
       favorite
     </i>
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
   <a
     className="mdc-tab"
@@ -82,10 +96,10 @@ exports[`renders icon tabs 1`] = `
     >
       bookmark
     </i>
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
-  <span
-    className="mdc-tab-bar__indicator"
-  />
 </nav>
 `;
 
@@ -97,19 +111,25 @@ exports[`renders text tabs 1`] = `
     className="mdc-tab mdc-tab--active"
   >
     Tab 1
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
   <a
     className="mdc-tab"
   >
     Tab 2
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
   <a
     className="mdc-tab"
   >
     Tab 3
+    <span
+      className="mdc-tab__indicator"
+    />
   </a>
-  <span
-    className="mdc-tab-bar__indicator"
-  />
 </nav>
 `;
