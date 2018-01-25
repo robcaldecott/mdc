@@ -25,7 +25,7 @@
     "jest": "^22.0.4",
     "lerna": "^2.5.1",
     "lint-staged": "^6.0.0",
-    "material-components-web": "0.28.0",
+    "material-components-web": "0.29.0",
     "material-design-icons-iconfont": "^3.0.3",
     "prettier": "^1.9.2",
     "prop-types": "^15.6.0",

@@ -1,12 +1,12 @@
 {
   "name": "@mdc/checkbox",
-  "version": "0.28.0",
+  "version": "0.29.0",
   "description": "React MDC Checkbox",
   "main": "index.js",
   "author": "Rob Caldecott <robert.caldecott@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@mdc/form-field": "^0.28.0",
+    "@mdc/form-field": "^0.29.0",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
   }

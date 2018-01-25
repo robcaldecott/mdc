@@ -10,6 +10,7 @@ const Tab = ({ active, iconAndText, className, children, ...other }) => (
     {...other}
   >
     {children}
+    <span className="mdc-tab__indicator" />
   </a>
 );
 

@@ -1,6 +1,6 @@
 {
   "name": "@mdc/fab",
-  "version": "0.28.0",
+  "version": "0.29.0",
   "description": "React MDC Floating Action Button",
   "main": "index.js",
   "author": "Rob Caldecott <robert.caldecott@gmail.com>",

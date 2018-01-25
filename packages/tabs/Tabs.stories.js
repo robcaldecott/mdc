@@ -22,18 +22,11 @@ storiesOf("tabs", module)
           ["text", "icon", "icons with text"],
           "text"
         );
-        const indicator = select(
-          "indicator",
-          ["normal", "primary", "accent"],
-          "normal"
-        );
-
         return (
           <Fragment>
             <TabBar
               icons={type === "icon"}
               iconsWithText={type === "icons with text"}
-              {...(indicator === "normal" ? {} : { indicator })}
             >
               {this.state.tabs.map(({ label, icon }, index) => (
                 <Tab
