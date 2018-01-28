@@ -2,7 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
 
-const DialogFooterButton = ({ className, action, buttonRef, ...other }) => (
+export const DialogFooterButton = ({
+  className,
+  action,
+  buttonRef,
+  ...other
+}) => (
   <button
     type="button"
     className={classnames(
@@ -24,5 +29,3 @@ DialogFooterButton.propTypes = {
 DialogFooterButton.defaultProps = {
   buttonRef: () => {}
 };
-
-export default DialogFooterButton;

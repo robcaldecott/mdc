@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const TabIcon = ({ className, children, ...other }) => (
+export const TabIcon = ({ className, children, ...other }) => (
   <i
     className={classnames("material-icons", "mdc-tab__icon", className)}
     {...other}
@@ -9,5 +9,3 @@ const TabIcon = ({ className, children, ...other }) => (
     {children}
   </i>
 );
-
-export default TabIcon;

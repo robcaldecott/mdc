@@ -1,1 +1,1 @@
-export { default as Elevation } from "./Elevation";
+export { Elevation } from "./Elevation";

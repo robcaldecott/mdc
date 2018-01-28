@@ -1,7 +1,7 @@
-export { default as Card } from "./Card";
-export { default as CardPrimary } from "./CardPrimary";
-export { default as CardTitle } from "./CardTitle";
-export { default as CardSubtitle } from "./CardSubtitle";
-export { default as CardSupportingText } from "./CardSupportingText";
-export { default as CardActions } from "./CardActions";
-export { default as CardAction } from "./CardAction";
+export { Card } from "./Card";
+export { CardPrimary } from "./CardPrimary";
+export { CardTitle } from "./CardTitle";
+export { CardSubtitle } from "./CardSubtitle";
+export { CardSupportingText } from "./CardSupportingText";
+export { CardActions } from "./CardActions";
+export { CardAction } from "./CardAction";

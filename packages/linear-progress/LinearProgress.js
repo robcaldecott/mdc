@@ -12,7 +12,7 @@ const scale = scaleValue => {
   };
 };
 
-const LinearProgress = ({
+export const LinearProgress = ({
   className,
   indeterminate,
   reversed,
@@ -50,5 +50,3 @@ const LinearProgress = ({
     </div>
   </div>
 );
-
-export default LinearProgress;

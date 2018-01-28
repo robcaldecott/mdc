@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const TextFieldHelperText = ({ persistent, validation, children }) => (
+export const TextFieldHelperText = ({ persistent, validation, children }) => (
   <p
     className={classnames("mdc-text-field-helper-text", {
       "mdc-text-field-helper-text--persistent": persistent,
@@ -11,5 +11,3 @@ const TextFieldHelperText = ({ persistent, validation, children }) => (
     {children}
   </p>
 );
-
-export default TextFieldHelperText;

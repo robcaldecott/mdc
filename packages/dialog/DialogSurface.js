@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const DialogSurface = ({ className, surfaceRef, ...other }) => (
+export const DialogSurface = ({ className, surfaceRef, ...other }) => (
   <div
     className={classnames("mdc-dialog__surface", className)}
     {...other}
@@ -13,5 +13,3 @@ const DialogSurface = ({ className, surfaceRef, ...other }) => (
     }}
   />
 );
-
-export default DialogSurface;

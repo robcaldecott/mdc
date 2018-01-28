@@ -1,1 +1,1 @@
-export { default as IconToggle } from "./IconToggle";
+export { IconToggle } from "./IconToggle";

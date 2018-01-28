@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const LayoutGridCell = ({
+export const LayoutGridCell = ({
   span,
   desktop,
   tablet,
@@ -27,5 +27,3 @@ const LayoutGridCell = ({
     {...other}
   />
 );
-
-export default LayoutGridCell;

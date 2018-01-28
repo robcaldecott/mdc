@@ -1,8 +1,8 @@
 import React from "react";
 import classnames from "classnames";
-import DialogSurface from "./DialogSurface";
+import { DialogSurface } from "./DialogSurface";
 
-class Dialog extends React.Component {
+export class Dialog extends React.Component {
   state = { animating: this.props.open };
 
   componentDidMount() {
@@ -75,5 +75,3 @@ class Dialog extends React.Component {
     );
   }
 }
-
-export default Dialog;

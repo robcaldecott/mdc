@@ -2,7 +2,7 @@ import React from "react";
 import { oneOf, bool } from "prop-types";
 import classnames from "classnames";
 
-const ToolbarSection = ({ align, shrinkToFit, className, ...other }) => (
+export const ToolbarSection = ({ align, shrinkToFit, className, ...other }) => (
   <section
     className={classnames(
       "mdc-toolbar__section",
@@ -20,5 +20,3 @@ ToolbarSection.propTypes = {
   align: oneOf(["start", "end"]),
   shrinkToFit: bool
 };
-
-export default ToolbarSection;

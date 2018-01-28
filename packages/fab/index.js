@@ -1,1 +1,1 @@
-export { default as FAB } from "./FAB";
+export { FAB } from "./FAB";

@@ -2,7 +2,7 @@ import React from "react";
 import { bool, oneOf } from "prop-types";
 import classnames from "classnames";
 
-const TabBar = ({ icons, iconsWithText, className, ...other }) => (
+export const TabBar = ({ icons, iconsWithText, className, ...other }) => (
   <nav
     className={classnames(
       "mdc-tab-bar",
@@ -20,5 +20,3 @@ TabBar.propTypes = {
   icons: bool,
   iconsWithText: bool
 };
-
-export default TabBar;

@@ -1,6 +1,6 @@
 import React from "react";
-import ListDivider from "./ListDivider";
+import { ListDivider } from "./ListDivider";
 
-const ListGroupDivider = props => <ListDivider element="hr" {...props} />;
-
-export default ListGroupDivider;
+export const ListGroupDivider = props => (
+  <ListDivider element="hr" {...props} />
+);

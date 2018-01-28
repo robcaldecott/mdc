@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const Switch = ({ className, ...other }) => (
+export const Switch = ({ className, ...other }) => (
   <div className={classnames("mdc-switch", className)}>
     <input type="checkbox" className="mdc-switch__native-control" {...other} />
     <div className="mdc-switch__background">
@@ -9,5 +9,3 @@ const Switch = ({ className, ...other }) => (
     </div>
   </div>
 );
-
-export default Switch;

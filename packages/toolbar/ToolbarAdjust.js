@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const ToolbarAdjust = ({ fixed, children }) =>
+export const ToolbarAdjust = ({ fixed, children }) =>
   React.Children.map(children, child =>
     React.cloneElement(child, {
       className: classnames(
@@ -10,5 +10,3 @@ const ToolbarAdjust = ({ fixed, children }) =>
       )
     })
   );
-
-export default ToolbarAdjust;

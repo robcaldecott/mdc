@@ -2,7 +2,7 @@ import React from "react";
 import classnames from "classnames";
 import { FormField } from "@mdc/form-field";
 
-const Checkbox = ({
+export const Checkbox = ({
   className,
   disabled,
   id,
@@ -50,5 +50,3 @@ const Checkbox = ({
 
   return checkbox;
 };
-
-export default Checkbox;

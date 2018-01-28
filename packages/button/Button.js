@@ -2,7 +2,7 @@ import React from "react";
 import { bool, string } from "prop-types";
 import classnames from "classnames";
 
-const Button = ({
+export const Button = ({
   className,
   raised,
   compact,
@@ -40,5 +40,3 @@ Button.propTypes = {
   stroked: bool,
   icon: string
 };
-
-export default Button;

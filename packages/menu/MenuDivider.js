@@ -1,5 +1,5 @@
 import React from "react";
 
-const MenuDivider = () => <li className="mdc-list-divider" role="separator" />;
-
-export default MenuDivider;
+export const MenuDivider = () => (
+  <li className="mdc-list-divider" role="separator" />
+);

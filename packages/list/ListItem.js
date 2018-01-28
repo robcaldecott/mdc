@@ -2,7 +2,7 @@ import React from "react";
 import { string, bool } from "prop-types";
 import classnames from "classnames";
 
-const ListItem = ({
+export const ListItem = ({
   element,
   selected,
   activated,
@@ -35,5 +35,3 @@ ListItem.propTypes = {
 ListItem.defaultProps = {
   element: "li"
 };
-
-export default ListItem;

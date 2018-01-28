@@ -2,7 +2,7 @@ import React from "react";
 import { bool, func } from "prop-types";
 import classnames from "classnames";
 
-class Menu extends React.Component {
+export class Menu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -123,5 +123,3 @@ Menu.defaultProps = {
   onCancel: () => {},
   menuRef: () => {}
 };
-
-export default Menu;

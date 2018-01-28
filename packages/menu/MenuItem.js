@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const MenuItem = ({ disabled, className, ...other }) => (
+export const MenuItem = ({ disabled, className, ...other }) => (
   <li
     className={classnames("mdc-list-item", className)}
     role="menuitem"
@@ -11,5 +11,3 @@ const MenuItem = ({ disabled, className, ...other }) => (
     {...other}
   />
 );
-
-export default MenuItem;

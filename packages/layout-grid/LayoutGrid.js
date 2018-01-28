@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const LayoutGrid = ({ nested, className, children, ...other }) =>
+export const LayoutGrid = ({ nested, className, children, ...other }) =>
   nested ? (
     <div className={classnames("mdc-layout-grid__inner", className)} {...other}>
       {children}
@@ -11,5 +11,3 @@ const LayoutGrid = ({ nested, className, children, ...other }) =>
       <div className="mdc-layout-grid__inner">{children}</div>
     </div>
   );
-
-export default LayoutGrid;

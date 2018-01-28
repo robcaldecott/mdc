@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import classnames from "classnames";
-import TextFieldLabel from "./TextFieldLabel";
-import TextFieldBottomLine from "./TextFieldBottomLine";
+import { TextFieldLabel } from "./TextFieldLabel";
+import { TextFieldBottomLine } from "./TextFieldBottomLine";
 
-class TextField extends React.Component {
+export class TextField extends React.Component {
   state = { hasFocus: false, isValid: true };
 
   handleFocus = () => {
@@ -77,5 +77,3 @@ class TextField extends React.Component {
     );
   }
 }
-
-export default TextField;

@@ -1,7 +1,7 @@
-export { default as Dialog } from "./Dialog";
-export { default as DialogSurface } from "./DialogSurface";
-export { default as DialogHeader } from "./DialogHeader";
-export { default as DialogHeaderTitle } from "./DialogHeaderTitle";
-export { default as DialogBody } from "./DialogBody";
-export { default as DialogFooter } from "./DialogFooter";
-export { default as DialogFooterButton } from "./DialogFooterButton";
+export { Dialog } from "./Dialog";
+export { DialogSurface } from "./DialogSurface";
+export { DialogHeader } from "./DialogHeader";
+export { DialogHeaderTitle } from "./DialogHeaderTitle";
+export { DialogBody } from "./DialogBody";
+export { DialogFooter } from "./DialogFooter";
+export { DialogFooterButton } from "./DialogFooterButton";

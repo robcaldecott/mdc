@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const Tab = ({ active, iconAndText, className, children, ...other }) => (
+export const Tab = ({ active, iconAndText, className, children, ...other }) => (
   <a
     className={classnames("mdc-tab", {
       "mdc-tab--active": active,
@@ -13,5 +13,3 @@ const Tab = ({ active, iconAndText, className, children, ...other }) => (
     <span className="mdc-tab__indicator" />
   </a>
 );
-
-export default Tab;

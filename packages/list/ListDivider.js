@@ -2,7 +2,7 @@ import React from "react";
 import { string, bool } from "prop-types";
 import classnames from "classnames";
 
-const ListDivider = ({
+export const ListDivider = ({
   element,
   padded,
   inset,
@@ -32,5 +32,3 @@ ListDivider.propTypes = {
 ListDivider.defaultProps = {
   element: "li"
 };
-
-export default ListDivider;

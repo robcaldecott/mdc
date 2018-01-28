@@ -2,7 +2,7 @@ import React from "react";
 import { string, bool } from "prop-types";
 import classnames from "classnames";
 
-const ToolbarIcon = ({ type, menu, className, children, ...other }) =>
+export const ToolbarIcon = ({ type, menu, className, children, ...other }) =>
   React.createElement(
     type,
     {
@@ -24,5 +24,3 @@ ToolbarIcon.propTypes = {
 ToolbarIcon.defaultProps = {
   type: "span"
 };
-
-export default ToolbarIcon;

@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const FAB = ({ className, mini, exited, children, ...other }) => (
+export const FAB = ({ className, mini, exited, children, ...other }) => (
   <button
     className={classnames("mdc-fab", "material-icons", {
       "mdc-fab--mini": mini,
@@ -13,5 +13,3 @@ const FAB = ({ className, mini, exited, children, ...other }) => (
     <span className="mdc-fab__icon">{children}</span>
   </button>
 );
-
-export default FAB;

@@ -1,2 +1,2 @@
-export { default as Snackbar } from "./Snackbar";
-export { default as SnackbarAction } from "./SnackbarAction";
+export { Snackbar } from "./Snackbar";
+export { SnackbarAction } from "./SnackbarAction";

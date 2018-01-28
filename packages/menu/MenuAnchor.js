@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-class MenuAnchor extends React.Component {
+export class MenuAnchor extends React.Component {
   state = { top: 0, left: 0 };
 
   componentDidMount() {
@@ -62,5 +62,3 @@ class MenuAnchor extends React.Component {
     );
   }
 }
-
-export default MenuAnchor;

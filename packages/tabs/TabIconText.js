@@ -1,10 +1,8 @@
 import React from "react";
 import classnames from "classnames";
 
-const TabIconText = ({ className, children, ...other }) => (
+export const TabIconText = ({ className, children, ...other }) => (
   <span className={classnames("mdc-tab__icon-text", className)} {...other}>
     {children}
   </span>
 );
-
-export default TabIconText;

@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const CardTitle = ({ className, large, children, ...other }) => (
+export const CardTitle = ({ className, large, children, ...other }) => (
   <h1
     className={classnames(
       "mdc-card__title",
@@ -13,5 +13,3 @@ const CardTitle = ({ className, large, children, ...other }) => (
     {children}
   </h1>
 );
-
-export default CardTitle;

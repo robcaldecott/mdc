@@ -2,7 +2,14 @@ import React from "react";
 import classnames from "classnames";
 import { FormField } from "@mdc/form-field";
 
-const Radio = ({ className, id, disabled, alignEnd, children, ...other }) => {
+export const Radio = ({
+  className,
+  id,
+  disabled,
+  alignEnd,
+  children,
+  ...other
+}) => {
   const radio = (
     <div
       className={classnames(
@@ -36,5 +43,3 @@ const Radio = ({ className, id, disabled, alignEnd, children, ...other }) => {
 
   return radio;
 };
-
-export default Radio;

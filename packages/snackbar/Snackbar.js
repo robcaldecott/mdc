@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const Snackbar = ({
+export const Snackbar = ({
   className,
   active,
   multiline,
@@ -31,5 +31,3 @@ const Snackbar = ({
     {action}
   </div>
 );
-
-export default Snackbar;

@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const List = ({
+export const List = ({
   element = "ul",
   nonInteractive,
   dense,
@@ -26,5 +26,3 @@ const List = ({
     },
     children
   );
-
-export default List;

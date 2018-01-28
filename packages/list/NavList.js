@@ -1,6 +1,4 @@
 import React from "react";
-import List from "./List";
+import { List } from "./List";
 
-const NavList = props => <List element="nav" {...props} />;
-
-export default NavList;
+export const NavList = props => <List element="nav" {...props} />;

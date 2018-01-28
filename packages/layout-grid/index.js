@@ -1,2 +1,2 @@
-export { default as LayoutGrid } from "./LayoutGrid";
-export { default as LayoutGridCell } from "./LayoutGridCell";
+export { LayoutGrid } from "./LayoutGrid";
+export { LayoutGridCell } from "./LayoutGridCell";

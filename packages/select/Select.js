@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-class Select extends React.Component {
+export class Select extends React.Component {
   render() {
     const {
       className,
@@ -33,5 +33,3 @@ class Select extends React.Component {
     );
   }
 }
-
-export default Select;
