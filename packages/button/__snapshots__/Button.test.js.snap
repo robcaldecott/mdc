@@ -4,6 +4,11 @@ exports[`renders 1`] = `
 <button
   className="mdc-button mdc-button--raised mdc-button--compact mdc-button--dense"
 >
+  <i
+    className="material-icons mdc-button__icon"
+  >
+    star
+  </i>
   Button
 </button>
 `;

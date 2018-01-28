@@ -11,10 +11,16 @@ storiesOf("button", module)
     "props",
     withInfo({ header: false, inline: true })(() => (
       <Button
-        raised={boolean("Raised", false)}
-        compact={boolean("Compact", false)}
-        dense={boolean("Dense", false)}
-        disabled={boolean("Disabled", false)}
+        raised={boolean("raised", false)}
+        compact={boolean("compact", false)}
+        dense={boolean("dense", false)}
+        unelevated={boolean("unelevated", false)}
+        stroked={boolean("stroked", false)}
+        disabled={boolean("disabled", false)}
+        icon={boolean("icon", false) ? "star" : ""}
+        {...(boolean("Custom")
+          ? { style: { "--mdc-theme-primary": "red" } }
+          : {})}
         onClick={action("onClick")}
       >
         {text("Label", "Button")}

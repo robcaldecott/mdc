@@ -10,7 +10,7 @@ it("renders in the DOM", () => {
 it("renders", () => {
   expect(
     renderer.create(
-      <Button raised compact dense>
+      <Button raised compact dense icon="star">
         Button
       </Button>
     )
