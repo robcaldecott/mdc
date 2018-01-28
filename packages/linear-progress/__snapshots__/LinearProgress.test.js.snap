@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders closed 1`] = `
+<div
+  className="mdc-linear-progress mdc-linear-progress--closed"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+    style={
+      Object {
+        "MSTransform": "scaleX(1)",
+        "MozTransform": "scaleX(1)",
+        "OTransform": "scaleX(1)",
+        "WebkitTransform": "scaleX(1)",
+        "transform": "scaleX(1)",
+      }
+    }
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+    style={
+      Object {
+        "MSTransform": "scaleX(undefined)",
+        "MozTransform": "scaleX(undefined)",
+        "OTransform": "scaleX(undefined)",
+        "WebkitTransform": "scaleX(undefined)",
+        "transform": "scaleX(undefined)",
+      }
+    }
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders determinate 1`] = `
+<div
+  className="mdc-linear-progress"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+    style={
+      Object {
+        "MSTransform": "scaleX(0.25)",
+        "MozTransform": "scaleX(0.25)",
+        "OTransform": "scaleX(0.25)",
+        "WebkitTransform": "scaleX(0.25)",
+        "transform": "scaleX(0.25)",
+      }
+    }
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+    style={
+      Object {
+        "MSTransform": "scaleX(0.25)",
+        "MozTransform": "scaleX(0.25)",
+        "OTransform": "scaleX(0.25)",
+        "WebkitTransform": "scaleX(0.25)",
+        "transform": "scaleX(0.25)",
+      }
+    }
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders determinate reversed 1`] = `
+<div
+  className="mdc-linear-progress"
+  reverseed={true}
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+    style={
+      Object {
+        "MSTransform": "scaleX(0.25)",
+        "MozTransform": "scaleX(0.25)",
+        "OTransform": "scaleX(0.25)",
+        "WebkitTransform": "scaleX(0.25)",
+        "transform": "scaleX(0.25)",
+      }
+    }
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+    style={
+      Object {
+        "MSTransform": "scaleX(0.25)",
+        "MozTransform": "scaleX(0.25)",
+        "OTransform": "scaleX(0.25)",
+        "WebkitTransform": "scaleX(0.25)",
+        "transform": "scaleX(0.25)",
+      }
+    }
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders indeterminate 1`] = `
+<div
+  className="mdc-linear-progress mdc-linear-progress--indeterminate"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+    style={
+      Object {
+        "MSTransform": "scaleX(1)",
+        "MozTransform": "scaleX(1)",
+        "OTransform": "scaleX(1)",
+        "WebkitTransform": "scaleX(1)",
+        "transform": "scaleX(1)",
+      }
+    }
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+    style={
+      Object {
+        "MSTransform": "scaleX(1)",
+        "MozTransform": "scaleX(1)",
+        "OTransform": "scaleX(1)",
+        "WebkitTransform": "scaleX(1)",
+        "transform": "scaleX(1)",
+      }
+    }
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders indeterminate reversed 1`] = `
+<div
+  className="mdc-linear-progress mdc-linear-progress--indeterminate mdc-linear-progress--reversed"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+    style={
+      Object {
+        "MSTransform": "scaleX(1)",
+        "MozTransform": "scaleX(1)",
+        "OTransform": "scaleX(1)",
+        "WebkitTransform": "scaleX(1)",
+        "transform": "scaleX(1)",
+      }
+    }
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+    style={
+      Object {
+        "MSTransform": "scaleX(1)",
+        "MozTransform": "scaleX(1)",
+        "OTransform": "scaleX(1)",
+        "WebkitTransform": "scaleX(1)",
+        "transform": "scaleX(1)",
+      }
+    }
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders with a custom class 1`] = `
+<div
+  className="mdc-linear-progress custom"
+  role="progressbar"
+>
+  <div
+    className="mdc-linear-progress__buffering-dots"
+  />
+  <div
+    className="mdc-linear-progress__buffer"
+    style={
+      Object {
+        "MSTransform": "scaleX(1)",
+        "MozTransform": "scaleX(1)",
+        "OTransform": "scaleX(1)",
+        "WebkitTransform": "scaleX(1)",
+        "transform": "scaleX(1)",
+      }
+    }
+  />
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+    style={
+      Object {
+        "MSTransform": "scaleX(undefined)",
+        "MozTransform": "scaleX(undefined)",
+        "OTransform": "scaleX(undefined)",
+        "WebkitTransform": "scaleX(undefined)",
+        "transform": "scaleX(undefined)",
+      }
+    }
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+  <div
+    className="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+  >
+    <span
+      className="mdc-linear-progress__bar-inner"
+    />
+  </div>
+</div>
+`;
