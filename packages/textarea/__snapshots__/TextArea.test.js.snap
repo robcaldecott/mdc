@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="mdc-text-field mdc-text-field--textarea mdc-text-field--upgraded mdc-text-field--fullwidth mdc-text-field--disabled mdc-text-field--dense custom"
+>
+  <textarea
+    className="mdc-text-field__input"
+    cols="40"
+    disabled={true}
+    id="textarea"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    rows="8"
+    value="Value"
+  />
+  <label
+    className="mdc-text-field__label mdc-text-field__label--float-above"
+    htmlFor="textarea"
+  >
+    Label
+  </label>
+</div>
+`;
