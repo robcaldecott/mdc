@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const FormField = ({ className, alignEnd, children, ...other }) => (
+const FormField = ({ className, alignEnd, ...other }) => (
   <div
     className={classnames(
       "mdc-form-field",
@@ -9,9 +9,7 @@ const FormField = ({ className, alignEnd, children, ...other }) => (
       className
     )}
     {...other}
-  >
-    {children}
-  </div>
+  />
 );
 
 export default FormField;

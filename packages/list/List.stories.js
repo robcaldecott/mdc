@@ -35,7 +35,7 @@ storiesOf("list", module)
         twoLine={twoLine}
       >
         {[...Array(5).keys()].map(index => (
-          <Fragment>
+          <Fragment key={index}>
             <ListItem selected={selected} activated={activated && index === 0}>
               {graphics && (
                 <ListItemGraphic>

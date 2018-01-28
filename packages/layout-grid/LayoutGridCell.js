@@ -9,7 +9,6 @@ const LayoutGridCell = ({
   order,
   align,
   className,
-  children,
   ...other
 }) => (
   <div
@@ -26,9 +25,7 @@ const LayoutGridCell = ({
       className
     )}
     {...other}
-  >
-    {children}
-  </div>
+  />
 );
 
 export default LayoutGridCell;

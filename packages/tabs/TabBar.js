@@ -2,7 +2,7 @@ import React from "react";
 import { bool, oneOf } from "prop-types";
 import classnames from "classnames";
 
-const TabBar = ({ icons, iconsWithText, className, children, ...other }) => (
+const TabBar = ({ icons, iconsWithText, className, ...other }) => (
   <nav
     className={classnames(
       "mdc-tab-bar",
@@ -13,9 +13,7 @@ const TabBar = ({ icons, iconsWithText, className, children, ...other }) => (
       className
     )}
     {...other}
-  >
-    {children}
-  </nav>
+  />
 );
 
 TabBar.propTypes = {

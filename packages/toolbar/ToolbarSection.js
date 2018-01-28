@@ -2,13 +2,7 @@ import React from "react";
 import { oneOf, bool } from "prop-types";
 import classnames from "classnames";
 
-const ToolbarSection = ({
-  align,
-  shrinkToFit,
-  className,
-  children,
-  ...other
-}) => (
+const ToolbarSection = ({ align, shrinkToFit, className, ...other }) => (
   <section
     className={classnames(
       "mdc-toolbar__section",
@@ -19,9 +13,7 @@ const ToolbarSection = ({
       className
     )}
     {...other}
-  >
-    {children}
-  </section>
+  />
 );
 
 ToolbarSection.propTypes = {

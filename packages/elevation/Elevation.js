@@ -1,16 +1,14 @@
 import React from "react";
 import classnames from "classnames";
 
-const Elevation = ({ z, transition, className, children, ...other }) => (
+const Elevation = ({ z, transition, className, ...other }) => (
   <div
     className={classnames(
       { [`mdc-elevation--z${z}`]: z, "mdc-elevation-transition": transition },
       className
     )}
     {...other}
-  >
-    {children}
-  </div>
+  />
 );
 
 export default Elevation;

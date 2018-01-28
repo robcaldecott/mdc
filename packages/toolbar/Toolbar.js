@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const Toolbar = ({ fixed, className, children, ...other }) => (
+const Toolbar = ({ fixed, className, ...other }) => (
   <header
     className={classnames(
       "mdc-toolbar",
@@ -9,9 +9,7 @@ const Toolbar = ({ fixed, className, children, ...other }) => (
       className
     )}
     {...other}
-  >
-    {children}
-  </header>
+  />
 );
 
 export default Toolbar;

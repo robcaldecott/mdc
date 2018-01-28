@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
 
-const IconToggle = ({ className, disabled, children, ...other }) => (
+const IconToggle = ({ className, disabled, ...other }) => (
   <i
     className={classnames(
       "mdc-icon-toggle",
@@ -10,9 +10,7 @@ const IconToggle = ({ className, disabled, children, ...other }) => (
       className
     )}
     {...other}
-  >
-    {children}
-  </i>
+  />
 );
 
 export default IconToggle;

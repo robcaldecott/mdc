@@ -2,13 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
 
-const DialogFooterButton = ({
-  className,
-  action,
-  buttonRef,
-  children,
-  ...other
-}) => (
+const DialogFooterButton = ({ className, action, buttonRef, ...other }) => (
   <button
     type="button"
     className={classnames(
@@ -19,9 +13,7 @@ const DialogFooterButton = ({
     )}
     ref={button => buttonRef(button)}
     {...other}
-  >
-    {children}
-  </button>
+  />
 );
 
 DialogFooterButton.propTypes = {
