@@ -71,7 +71,14 @@ class Menu extends React.Component {
   }
 
   render() {
-    const { open, className, children, onSelected, ...other } = this.props;
+    const {
+      open,
+      className,
+      children,
+      onSelected,
+      menuRef,
+      ...other
+    } = this.props;
     return (
       <div
         className={classnames(
@@ -86,13 +93,17 @@ class Menu extends React.Component {
         tabIndex="-1"
         ref={menu => {
           this.menu = menu;
+          menuRef(menu);
         }}
         {...other}
       >
         <ul className="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
           {React.Children.map(children, (item, index) =>
             React.cloneElement(item, {
-              onClick: () => onSelected(index, item)
+              onClick: e =>
+                item.props.onClick
+                  ? item.props.onClick(e)
+                  : onSelected(index, item)
             })
           )}
         </ul>
@@ -109,7 +120,8 @@ Menu.propTypes = {
 
 Menu.defaultProps = {
   onSelected: () => {},
-  onCancel: () => {}
+  onCancel: () => {},
+  menuRef: () => {}
 };
 
 export default Menu;

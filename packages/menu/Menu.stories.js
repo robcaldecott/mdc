@@ -1,9 +1,11 @@
 import React from "react";
-import { Menu, MenuItem, MenuDivider } from ".";
+import { Menu, MenuItem, MenuDivider, MenuAnchor } from ".";
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
+import { withKnobs, select } from "@storybook/addon-knobs";
 
 storiesOf("menu", module)
+  .addDecorator(withKnobs)
   .add("open", () => (
     <Menu open onSelected={action("onSelected")} onCancel={action("onCancel")}>
       <MenuItem>Item 1</MenuItem>
@@ -43,6 +45,44 @@ storiesOf("menu", module)
             </Menu>
 
             <p>Selected index: {this.state.selectedIndex}</p>
+          </div>
+        );
+      }
+    }
+    return <ControlledMenu />;
+  })
+  .add("anchor", () => {
+    class ControlledMenu extends React.Component {
+      state = { open: false };
+
+      render() {
+        const menuPosition = select(
+          "menuPosition",
+          ["top-left", "top-right", "bottom-right", "bottom-left"],
+          "top-left"
+        );
+        return (
+          <div style={{ position: "relative" }}>
+            <MenuAnchor
+              style={{ position: "absolute", top: 0, left: 0 }}
+              menu={
+                <Menu
+                  open={this.state.open}
+                  onCancel={() => this.setState({ open: false })}
+                >
+                  <MenuItem>Item 1</MenuItem>
+                  <MenuItem>Item 2</MenuItem>
+                </Menu>
+              }
+              menuPosition={menuPosition}
+            >
+              <button
+                className="mdc-button"
+                onClick={() => this.setState({ open: true })}
+              >
+                Open
+              </button>
+            </MenuAnchor>
           </div>
         );
       }

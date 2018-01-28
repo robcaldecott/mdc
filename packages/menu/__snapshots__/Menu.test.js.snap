@@ -51,3 +51,69 @@ exports[`renders 1`] = `
   </ul>
 </div>
 `;
+
+exports[`renders with an anchor 1`] = `
+<div
+  className="mdc-menu-anchor custom"
+>
+  <button>
+    Button
+  </button>
+  <div
+    className="mdc-simple-menu mdc-simple-menu--open"
+    onCancel={[Function]}
+    style={
+      Object {
+        "left": 0,
+        "position": "absolute",
+        "top": 0,
+      }
+    }
+    tabIndex="-1"
+  >
+    <ul
+      aria-hidden="true"
+      className="mdc-menu__items mdc-list"
+      role="menu"
+    >
+      <li
+        className="mdc-list-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="1"
+      >
+        Item 1
+      </li>
+      <li
+        className="mdc-list-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="1"
+      >
+        Item 2
+      </li>
+      <li
+        className="mdc-list-divider"
+        role="separator"
+      />
+      <li
+        aria-disabled="true"
+        className="mdc-list-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="-1"
+      >
+        Item 3
+      </li>
+      <li
+        className="mdc-list-item"
+        onClick={[Function]}
+        role="menuitem"
+        tabIndex="1"
+      >
+        Item 4
+      </li>
+    </ul>
+  </div>
+</div>
+`;
