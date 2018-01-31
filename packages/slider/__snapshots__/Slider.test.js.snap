@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="mdc-slider mdc-slider--disabled custom"
+>
+  <input
+    className="mdc-range"
+    disabled={true}
+    max="100"
+    min="1"
+    step="1"
+    type="range"
+    value="50"
+  />
+</div>
+`;
