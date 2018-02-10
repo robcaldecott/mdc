@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<h1
+  className="mdc-typography--display4 mdc-typography--adjust-margin"
+>
+  Display4
+</h1>
+`;
+
+exports[`renders body1 1`] = `
+<p
+  className="mdc-typography--body1"
+>
+  Body1
+</p>
+`;
+
+exports[`renders body2 1`] = `
+<aside
+  className="mdc-typography--body2"
+>
+  Body2
+</aside>
+`;
+
+exports[`renders button 1`] = `
+<span
+  className="mdc-typography--button"
+>
+  Button
+</span>
+`;
+
+exports[`renders caption 1`] = `
+<span
+  className="mdc-typography--caption"
+>
+  Caption
+</span>
+`;
+
+exports[`renders display1 1`] = `
+<h1
+  className="mdc-typography--display1"
+>
+  Display4
+</h1>
+`;
+
+exports[`renders display2 1`] = `
+<h1
+  className="mdc-typography--display2"
+>
+  Display2
+</h1>
+`;
+
+exports[`renders display3 1`] = `
+<h1
+  className="mdc-typography--display3"
+>
+  Display3
+</h1>
+`;
+
+exports[`renders display4 1`] = `
+<h1
+  className="mdc-typography--display4"
+>
+  Display4
+</h1>
+`;
+
+exports[`renders headline 1`] = `
+<h1
+  className="mdc-typography--headline"
+>
+  Headline
+</h1>
+`;
+
+exports[`renders subheading1 1`] = `
+<h4
+  className="mdc-typography--subheading1"
+>
+  Subheading1
+</h4>
+`;
+
+exports[`renders subheading2 1`] = `
+<h3
+  className="mdc-typography--subheading2"
+>
+  Subheading2
+</h3>
+`;
+
+exports[`renders title 1`] = `
+<h1
+  className="mdc-typography--title"
+>
+  Title
+</h1>
+`;
