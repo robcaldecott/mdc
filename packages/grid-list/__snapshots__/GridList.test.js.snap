@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="mdc-grid-list mdc-grid-list--tile-gutter-1 mdc-grid-list--header-caption mdc-grid-list--twoline-caption mdc-grid-list--with-icon-align-start mdc-grid-list--tile-aspect-16x9"
+>
+  <ul
+    className="mdc-grid-list__tiles"
+  >
+    <li
+      className="mdc-grid-tile"
+    >
+      <div
+        className="mdc-grid-tile__primary"
+      >
+        <img
+          alt="tile"
+          className="mdc-grid-tile__primary-content"
+          src="image.png"
+        />
+      </div>
+      <span
+        className="mdc-grid-tile__secondary"
+      >
+        <i
+          className="mdc-grid-tile__icon material-icons"
+        >
+          star_border
+        </i>
+        <span
+          className="mdc-grid-tile__title"
+        >
+          Tile 
+          1
+           with a very long title
+        </span>
+        <span
+          className="mdc-grid-tile__support-text"
+        >
+          Support text 
+          1
+        </span>
+      </span>
+    </li>
+    <li
+      className="mdc-grid-tile"
+    >
+      <div
+        className="mdc-grid-tile__primary"
+      >
+        <img
+          alt="tile"
+          className="mdc-grid-tile__primary-content"
+          src="image.png"
+        />
+      </div>
+      <span
+        className="mdc-grid-tile__secondary"
+      >
+        <i
+          className="mdc-grid-tile__icon material-icons"
+        >
+          star_border
+        </i>
+        <span
+          className="mdc-grid-tile__title"
+        >
+          Tile 
+          2
+           with a very long title
+        </span>
+        <span
+          className="mdc-grid-tile__support-text"
+        >
+          Support text 
+          2
+        </span>
+      </span>
+    </li>
+    <li
+      className="mdc-grid-tile"
+    >
+      <div
+        className="mdc-grid-tile__primary"
+      >
+        <img
+          alt="tile"
+          className="mdc-grid-tile__primary-content"
+          src="image.png"
+        />
+      </div>
+      <span
+        className="mdc-grid-tile__secondary"
+      >
+        <i
+          className="mdc-grid-tile__icon material-icons"
+        >
+          star_border
+        </i>
+        <span
+          className="mdc-grid-tile__title"
+        >
+          Tile 
+          3
+           with a very long title
+        </span>
+        <span
+          className="mdc-grid-tile__support-text"
+        >
+          Support text 
+          3
+        </span>
+      </span>
+    </li>
+    <li
+      className="mdc-grid-tile"
+    >
+      <div
+        className="mdc-grid-tile__primary"
+      >
+        <img
+          alt="tile"
+          className="mdc-grid-tile__primary-content"
+          src="image.png"
+        />
+      </div>
+      <span
+        className="mdc-grid-tile__secondary"
+      >
+        <i
+          className="mdc-grid-tile__icon material-icons"
+        >
+          star_border
+        </i>
+        <span
+          className="mdc-grid-tile__title"
+        >
+          Tile 
+          4
+           with a very long title
+        </span>
+        <span
+          className="mdc-grid-tile__support-text"
+        >
+          Support text 
+          4
+        </span>
+      </span>
+    </li>
+    <li
+      className="mdc-grid-tile"
+    >
+      <div
+        className="mdc-grid-tile__primary"
+      >
+        <img
+          alt="tile"
+          className="mdc-grid-tile__primary-content"
+          src="image.png"
+        />
+      </div>
+      <span
+        className="mdc-grid-tile__secondary"
+      >
+        <i
+          className="mdc-grid-tile__icon material-icons"
+        >
+          star_border
+        </i>
+        <span
+          className="mdc-grid-tile__title"
+        >
+          Tile 
+          5
+           with a very long title
+        </span>
+        <span
+          className="mdc-grid-tile__support-text"
+        >
+          Support text 
+          5
+        </span>
+      </span>
+    </li>
+    <li
+      className="mdc-grid-tile"
+    >
+      <div
+        className="mdc-grid-tile__primary"
+      >
+        <img
+          alt="tile"
+          className="mdc-grid-tile__primary-content"
+          src="image.png"
+        />
+      </div>
+      <span
+        className="mdc-grid-tile__secondary"
+      >
+        <i
+          className="mdc-grid-tile__icon material-icons"
+        >
+          star_border
+        </i>
+        <span
+          className="mdc-grid-tile__title"
+        >
+          Tile 
+          6
+           with a very long title
+        </span>
+        <span
+          className="mdc-grid-tile__support-text"
+        >
+          Support text 
+          6
+        </span>
+      </span>
+    </li>
+  </ul>
+</div>
+`;
