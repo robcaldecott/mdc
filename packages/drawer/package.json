@@ -1,0 +1,16 @@
+{
+  "name": "@mdc/drawer",
+  "version": "0.29.0",
+  "description": "React MDC Drawer",
+  "main": "index.js",
+  "author": "Rob Caldecott <robert.caldecott@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "@mdc/list": "^0.29.0",
+    "@mdc/toolbar": "^0.29.0"
+  }
+}

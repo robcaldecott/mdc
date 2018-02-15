@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a permanent drawer 1`] = `
+<nav
+  className="mdc-drawer mdc-drawer--permanent mdc-typography"
+>
+  <div
+    className="mdc-drawer__toolbar-spacer"
+  />
+  <div
+    className="mdc-drawer__content"
+  >
+    <nav
+      className="mdc-list"
+    >
+      <a
+        className="mdc-list-item"
+      >
+        Item 1
+      </a>
+      <a
+        className="mdc-list-item"
+      >
+        Item 2
+      </a>
+    </nav>
+  </div>
+</nav>
+`;
+
+exports[`renders a persistent drawer 1`] = `
+<aside
+  className="mdc-drawer mdc-drawer--persistent mdc-typography mdc-drawer--open mdc-drawer--animating"
+  onTransitionEnd={[Function]}
+>
+  <nav
+    className="mdc-drawer__drawer"
+  >
+    <header
+      className="mdc-drawer__header undefined"
+    >
+      <div
+        className="mdc-drawer__header-content undefined"
+      >
+        Header
+      </div>
+    </header>
+    <div
+      className="mdc-drawer__content"
+    >
+      <nav
+        className="mdc-list"
+      >
+        <a
+          className="mdc-list-item"
+        >
+          Item 1
+        </a>
+        <a
+          className="mdc-list-item"
+        >
+          Item 2
+        </a>
+      </nav>
+    </div>
+  </nav>
+</aside>
+`;
