@@ -6,13 +6,13 @@ export class Dialog extends React.Component {
   state = { animating: this.props.open };
 
   componentDidMount() {
-    if (this.props.open) this.open();
+    this.props.open && this.open();
   }
 
   componentWillReceiveProps({ open }) {
     if (open !== this.props.open) {
       open ? this.open() : this.close();
-      this.setState({ animating: open });
+      this.setState({ animating: true });
     }
   }
 
