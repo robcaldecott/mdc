@@ -2,12 +2,11 @@
 
 exports[`renders 1`] = `
 <div
-  className="mdc-checkbox"
+  className="mdc-checkbox custom"
 >
   <input
     className="mdc-checkbox__native-control"
     disabled={undefined}
-    id={undefined}
     type="checkbox"
   />
   <div
@@ -31,43 +30,32 @@ exports[`renders 1`] = `
 </div>
 `;
 
-exports[`renders with a label 1`] = `
+exports[`renders disabled 1`] = `
 <div
-  className="mdc-form-field"
+  className="mdc-checkbox mdc-checkbox--disabled"
 >
+  <input
+    className="mdc-checkbox__native-control"
+    disabled={true}
+    type="checkbox"
+  />
   <div
-    className="mdc-checkbox"
+    className="mdc-checkbox__background"
   >
-    <input
-      className="mdc-checkbox__native-control"
-      defaultChecked={true}
-      disabled={undefined}
-      id="checkbox"
-      type="checkbox"
-    />
-    <div
-      className="mdc-checkbox__background"
+    <svg
+      className="mdc-checkbox__checkmark"
+      viewBox="0 0 24 24"
     >
-      <svg
-        className="mdc-checkbox__checkmark"
-        viewBox="0 0 24 24"
-      >
-        <path
-          className="mdc-checkbox__checkmark__path"
-          d="M1.73,12.91 8.1,19.28 22.79,4.59"
-          fill="none"
-          stroke="white"
-        />
-      </svg>
-      <div
-        className="mdc-checkbox__mixedmark"
+      <path
+        className="mdc-checkbox__checkmark__path"
+        d="M1.73,12.91 8.1,19.28 22.79,4.59"
+        fill="none"
+        stroke="white"
       />
-    </div>
+    </svg>
+    <div
+      className="mdc-checkbox__mixedmark"
+    />
   </div>
-  <label
-    htmlFor="checkbox"
-  >
-    Label
-  </label>
 </div>
 `;

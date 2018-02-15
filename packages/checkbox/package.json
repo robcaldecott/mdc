@@ -6,8 +6,10 @@
   "author": "Rob Caldecott <robert.caldecott@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@mdc/form-field": "^0.29.0",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "@mdc/form-field": "^0.29.0"
   }
 }

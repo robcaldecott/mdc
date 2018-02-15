@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Radio } from ".";
+import { FormField } from "@mdc/form-field";
 import { storiesOf } from "@storybook/react";
 import { withKnobs, boolean } from "@storybook/addon-knobs";
 
@@ -20,17 +21,16 @@ storiesOf("radio", module)
         return (
           <Fragment>
             {this.state.items.map(({ label, value }) => (
-              <Radio
-                key={value}
-                id={`radio-${value}`}
-                value={value}
-                checked={value === this.state.value}
-                onChange={e => this.setState({ value })}
-                disabled={this.props.disabled}
-                alignEnd={this.props.alignEnd}
-              >
-                {label}
-              </Radio>
+              <FormField key={value} alignEnd={this.props.alignEnd}>
+                <Radio
+                  id={`radio-${value}`}
+                  value={value}
+                  checked={value === this.state.value}
+                  onChange={e => this.setState({ value })}
+                  disabled={this.props.disabled}
+                />
+                <label htmlFor={`radio-${value}`}>{label}</label>
+              </FormField>
             ))}
             <p>Selected option: {this.state.value}</p>
           </Fragment>

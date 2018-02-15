@@ -2,12 +2,11 @@
 
 exports[`renders 1`] = `
 <div
-  className="mdc-radio"
+  className="mdc-radio custom"
 >
   <input
     className="mdc-radio__native-control"
     disabled={undefined}
-    id={undefined}
     type="radio"
   />
   <div
@@ -20,38 +19,6 @@ exports[`renders 1`] = `
       className="mdc-radio__inner-circle"
     />
   </div>
-</div>
-`;
-
-exports[`renders alignEnd 1`] = `
-<div
-  className="mdc-form-field mdc-form-field--align-end"
->
-  <div
-    className="mdc-radio"
-  >
-    <input
-      className="mdc-radio__native-control"
-      disabled={undefined}
-      id="radio"
-      type="radio"
-    />
-    <div
-      className="mdc-radio__background"
-    >
-      <div
-        className="mdc-radio__outer-circle"
-      />
-      <div
-        className="mdc-radio__inner-circle"
-      />
-    </div>
-  </div>
-  <label
-    htmlFor="radio"
-  >
-    Label
-  </label>
 </div>
 `;
 
@@ -62,7 +29,6 @@ exports[`renders disabled 1`] = `
   <input
     className="mdc-radio__native-control"
     disabled={true}
-    id={undefined}
     type="radio"
   />
   <div
@@ -75,37 +41,5 @@ exports[`renders disabled 1`] = `
       className="mdc-radio__inner-circle"
     />
   </div>
-</div>
-`;
-
-exports[`renders with a label 1`] = `
-<div
-  className="mdc-form-field"
->
-  <div
-    className="mdc-radio"
-  >
-    <input
-      className="mdc-radio__native-control"
-      disabled={undefined}
-      id="radio"
-      type="radio"
-    />
-    <div
-      className="mdc-radio__background"
-    >
-      <div
-        className="mdc-radio__outer-circle"
-      />
-      <div
-        className="mdc-radio__inner-circle"
-      />
-    </div>
-  </div>
-  <label
-    htmlFor="radio"
-  >
-    Label
-  </label>
 </div>
 `;

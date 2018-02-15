@@ -3,15 +3,9 @@ import { Checkbox } from ".";
 import renderer from "react-test-renderer";
 
 it("renders", () => {
-  expect(renderer.create(<Checkbox />)).toMatchSnapshot();
+  expect(renderer.create(<Checkbox className="custom" />)).toMatchSnapshot();
 });
 
-it("renders with a label", () => {
-  expect(
-    renderer.create(
-      <Checkbox id="checkbox" defaultChecked>
-        Label
-      </Checkbox>
-    )
-  ).toMatchSnapshot();
+it("renders disabled", () => {
+  expect(renderer.create(<Checkbox disabled />)).toMatchSnapshot();
 });
