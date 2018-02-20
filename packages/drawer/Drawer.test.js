@@ -5,7 +5,8 @@ import {
   DrawerContent,
   PersistentDrawer,
   DrawerHeader,
-  DrawerHeaderContent
+  DrawerHeaderContent,
+  TemporaryDrawer
 } from ".";
 import { NavList, NavListItem } from "@mdc/list";
 import renderer from "react-test-renderer";
@@ -40,6 +41,24 @@ it("renders a persistent drawer", () => {
           </NavList>
         </DrawerContent>
       </PersistentDrawer>
+    )
+  ).toMatchSnapshot();
+});
+
+it("renders a temporary drawer", () => {
+  expect(
+    renderer.create(
+      <TemporaryDrawer open>
+        <DrawerHeader>
+          <DrawerHeaderContent>Header</DrawerHeaderContent>
+        </DrawerHeader>
+        <DrawerContent>
+          <NavList>
+            <NavListItem>Item 1</NavListItem>
+            <NavListItem>Item 2</NavListItem>
+          </NavList>
+        </DrawerContent>
+      </TemporaryDrawer>
     )
   ).toMatchSnapshot();
 });

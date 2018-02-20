@@ -5,7 +5,8 @@ import {
   DrawerContent,
   PersistentDrawer,
   DrawerHeader,
-  DrawerHeaderContent
+  DrawerHeaderContent,
+  TemporaryDrawer
 } from ".";
 import { storiesOf } from "@storybook/react";
 import {
@@ -127,4 +128,37 @@ storiesOf("drawer", module)
       }
     }
     return <ControlledPersistentDrawer />;
+  })
+  .add("temporary", () => {
+    class ControlledTemporaryDrawer extends React.Component {
+      state = { open: false };
+
+      render() {
+        return (
+          <div>
+            <DemoToolbar
+              menu
+              onMenu={() => this.setState(state => ({ open: !state.open }))}
+            />
+
+            <TemporaryDrawer
+              open={this.state.open}
+              onClose={() => this.setState({ open: false })}
+            >
+              <DrawerHeader className="mdc-theme--primary-bg">
+                <DrawerHeaderContent className="mdc-theme--text-primary-on-primary">
+                  Header
+                </DrawerHeaderContent>
+              </DrawerHeader>
+              <DrawerContent>
+                <NavMenu />
+              </DrawerContent>
+            </TemporaryDrawer>
+
+            <main>Content</main>
+          </div>
+        );
+      }
+    }
+    return <ControlledTemporaryDrawer />;
   });
