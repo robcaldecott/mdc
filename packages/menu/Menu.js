@@ -82,11 +82,11 @@ export class Menu extends React.Component {
     return (
       <div
         className={classnames(
-          "mdc-simple-menu",
+          "mdc-menu",
           {
-            "mdc-simple-menu--open": open,
-            "mdc-simple-menu--animating-open": this.state.animatingOpen,
-            "mdc-simple-menu--animating-closed": this.state.animatingClosed
+            "mdc-menu--open": open,
+            "mdc-menu--animating-open": this.state.animatingOpen,
+            "mdc-menu--animating-closed": this.state.animatingClosed
           },
           className
         )}

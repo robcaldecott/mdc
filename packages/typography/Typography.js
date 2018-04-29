@@ -1,36 +1,43 @@
 import React from "react";
 import classnames from "classnames";
+import PropTypes from "prop-types";
 
-// export const Typography = ({ children, type, adjustMargin }) =>
-//   React.Children.map(children, child =>
-//     React.cloneElement(child, {
-//       className: classnames(
-//         {
-//           [`mdc-typography--${type}`]: type,
-//           "mdc-typography--adjust-margin": adjustMargin
-//         },
-//         child.props.className
-//       )
-//     })
-//   );
-
-export const Typography = ({
-  element = "div",
-  type,
-  className,
-  adjustMargin,
-  children
-}) =>
-  React.createElement(
-    element,
-    {
-      className: classnames(
+export const Typography = ({ element, type, className, children }) => {
+  const T = element;
+  return (
+    <T
+      className={classnames(
         {
-          [`mdc-typography--${type}`]: type,
-          "mdc-typography--adjust-margin": adjustMargin
+          [`mdc-typography--${type}`]: type
         },
         className
-      )
-    },
-    children
+      )}
+    >
+      {children}
+    </T>
   );
+};
+
+Typography.propTypes = {
+  element: PropTypes.string,
+  type: PropTypes.oneOf([
+    "headline1",
+    "headline2",
+    "headline3",
+    "headline4",
+    "headline5",
+    "headline6",
+    "subtitle1",
+    "subtitle2",
+    "body1",
+    "body2",
+    "caption",
+    "button",
+    "overline"
+  ]).isRequired,
+  className: PropTypes.string
+};
+
+Typography.defaultProps = {
+  element: "div"
+};

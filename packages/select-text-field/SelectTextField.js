@@ -57,8 +57,8 @@ export class SelectTextField extends React.Component {
         </span>
 
         <div
-          className={classnames("mdc-text-field__bottom-line", {
-            "mdc-text-field__bottom-line--active": this.state.hasFocus
+          className={classnames("mdc-line-ripple", {
+            "mdc-line-ripple--active": this.state.hasFocus
           })}
         />
       </label>

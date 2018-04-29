@@ -63,7 +63,7 @@ export class TextField extends React.Component {
 
           <TextFieldLabel
             floatAbove={hasFocus || value}
-            shake={!hasFocus && !isValid}
+            shake={!hasFocus && !isValid && value}
           >
             {label}
           </TextFieldLabel>

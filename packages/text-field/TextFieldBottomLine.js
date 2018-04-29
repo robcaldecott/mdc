@@ -3,8 +3,8 @@ import classnames from "classnames";
 
 export const TextFieldBottomLine = ({ active }) => (
   <div
-    className={classnames("mdc-text-field__bottom-line", {
-      "mdc-text-field__bottom-line--active": active
+    className={classnames("mdc-line-ripple", {
+      "mdc-line-ripple--active": active
     })}
   />
 );

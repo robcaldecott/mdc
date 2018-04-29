@@ -12,10 +12,9 @@ storiesOf("button", module)
     withInfo({ header: false, inline: true })(() => (
       <Button
         raised={boolean("raised", false)}
-        compact={boolean("compact", false)}
         dense={boolean("dense", false)}
         unelevated={boolean("unelevated", false)}
-        stroked={boolean("stroked", false)}
+        outlined={boolean("outlined", false)}
         disabled={boolean("disabled", false)}
         icon={boolean("icon", false) ? "star" : ""}
         {...(boolean("Custom")

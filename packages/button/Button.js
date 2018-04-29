@@ -5,10 +5,9 @@ import classnames from "classnames";
 export const Button = ({
   className,
   raised,
-  compact,
   dense,
   unelevated,
-  stroked,
+  outlined,
   icon,
   children,
   ...other
@@ -18,10 +17,9 @@ export const Button = ({
       "mdc-button",
       {
         "mdc-button--raised": raised,
-        "mdc-button--compact": compact,
         "mdc-button--dense": dense,
         "mdc-button--unelevated": unelevated,
-        "mdc-button--stroked": stroked
+        "mdc-button--outlined": outlined
       },
       className
     )}
@@ -34,9 +32,8 @@ export const Button = ({
 
 Button.propTypes = {
   raised: bool,
-  compact: bool,
   dense: bool,
   unelevated: bool,
-  stroked: bool,
+  outlined: bool,
   icon: string
 };
